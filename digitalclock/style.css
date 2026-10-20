@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clock {
+    margin: auto;
+    padding: 0px 5px;
+    border: 1px solid;
+    border-color: lightgreen;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px lightgreen;
+    align-items: center;
+}
+
+.digitalclock {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 35%;
+    margin: 150px auto;
+    height: 30vh;
+    background-color: #000;
+    border: 2px solid;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#time {
+    font-size: 35px;
+    font-weight: 500;
+    color:lightgreen;
+    font-family: 'Courier New', Courier, monospace;
+    /* width: 500px; */
+    /* padding: 10px 20px; */
+    gap: 50px;
+    text-align: center;
+
+}
+
+#date {
+    font-size: 20px;
+   color:lightgreen;
+    padding-top: 5px;
+    gap: 30px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#greeting {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+color: lightgreen;
+  font-size: 20px;
+}
